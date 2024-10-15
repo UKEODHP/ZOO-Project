@@ -1,11 +1,5 @@
 name: Docker Image CI (Ubuntu Jammy)
 
-on:
-  push:
-    branches: [  ]
-  pull_request:
-    branches: [  ]
-
 jobs:
 
   build:

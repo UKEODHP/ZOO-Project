@@ -1,11 +1,5 @@
 name: Docker Image CI (DRU with OpenEO UDP support)
 
-on:
-  push:
-    branches: [  ]
-  pull_request:
-    branches: [  ]
-
 jobs:
 
   build:

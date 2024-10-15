@@ -64,6 +64,7 @@ jobs:
           build-args: |
             GIT_REF_NAME=${{ github.ref_name }}
             GIT_SHA=${{ github.sha }}
+            PY_VER=3.8
           context: .
           file: docker/dru/Dockerfile
           cache-from: type=local,src=/tmp/.buildx-cache

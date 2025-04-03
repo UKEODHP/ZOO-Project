@@ -242,7 +242,7 @@ RUN date && mkdir /tmp/cookiecutter-templates && \
     ls dist && \
     pip install dist/zoo_wes_runner-0.1.0-py3-none-any.whl && \
     cd .. && \
-    git clone https://github.com/Terradue/pycalrissian.git && \
+    git clone https://github.com/EO-DataHub/pycalrissian.git && \
     cd pycalrissian && \
     # Using the latest version of pycalrissian with the fix for the RBAC
     #sed "s:V1Subject:RbacV1Subject:g" -i pycalrissian/context.py && \

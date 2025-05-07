@@ -235,7 +235,7 @@ RUN date && mkdir /tmp/cookiecutter-templates && \
     pip install --upgrade pip && \
     # Using the latest version of pycalrissian with the fix for the RBAC
     cd /tmp && \
-    git clone -b feature/v1subject-fix https://github.com/Terradue/pycalrissian.git && \
+    git clone -b main https://github.com/EO-DataHub/pycalrissian.git && \
     cd pycalrissian && \
     python3 setup.py install && \
     cd .. && \
